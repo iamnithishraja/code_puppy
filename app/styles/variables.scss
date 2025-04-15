@@ -1,0 +1,251 @@
+/* Color Tokens Light Theme */
+:root,
+:root[data-theme='light'] {
+  --puppy-elements-borderColor: theme('colors.alpha.gray.10');
+  --puppy-elements-borderColorActive: theme('colors.accent.600');
+
+  --puppy-elements-bg-depth-1: theme('colors.white');
+  --puppy-elements-bg-depth-2: theme('colors.gray.50');
+  --puppy-elements-bg-depth-3: theme('colors.gray.200');
+  --puppy-elements-bg-depth-4: theme('colors.alpha.gray.5');
+
+  --puppy-elements-textPrimary: theme('colors.gray.950');
+  --puppy-elements-textSecondary: theme('colors.gray.600');
+  --puppy-elements-textTertiary: theme('colors.gray.500');
+
+  --puppy-elements-code-background: theme('colors.gray.100');
+  --puppy-elements-code-text: theme('colors.gray.950');
+
+  --puppy-elements-button-primary-background: theme('colors.alpha.accent.10');
+  --puppy-elements-button-primary-backgroundHover: theme('colors.alpha.accent.20');
+  --puppy-elements-button-primary-text: theme('colors.accent.500');
+
+  --puppy-elements-button-secondary-background: theme('colors.alpha.gray.5');
+  --puppy-elements-button-secondary-backgroundHover: theme('colors.alpha.gray.10');
+  --puppy-elements-button-secondary-text: theme('colors.gray.950');
+
+  --puppy-elements-button-danger-background: theme('colors.alpha.red.10');
+  --puppy-elements-button-danger-backgroundHover: theme('colors.alpha.red.20');
+  --puppy-elements-button-danger-text: theme('colors.red.500');
+
+  --puppy-elements-item-contentDefault: theme('colors.alpha.gray.50');
+  --puppy-elements-item-contentActive: theme('colors.gray.950');
+  --puppy-elements-item-contentAccent: theme('colors.accent.700');
+  --puppy-elements-item-contentDanger: theme('colors.red.500');
+  --puppy-elements-item-backgroundDefault: rgba(0, 0, 0, 0);
+  --puppy-elements-item-backgroundActive: theme('colors.alpha.gray.5');
+  --puppy-elements-item-backgroundAccent: theme('colors.alpha.accent.10');
+  --puppy-elements-item-backgroundDanger: theme('colors.alpha.red.10');
+
+  --puppy-elements-loader-background: theme('colors.alpha.gray.10');
+  --puppy-elements-loader-progress: theme('colors.accent.500');
+
+  --puppy-elements-artifacts-background: theme('colors.white');
+  --puppy-elements-artifacts-backgroundHover: theme('colors.alpha.gray.2');
+  --puppy-elements-artifacts-borderColor: var(--puppy-elements-borderColor);
+  --puppy-elements-artifacts-inlineCode-background: theme('colors.gray.100');
+  --puppy-elements-artifacts-inlineCode-text: var(--puppy-elements-textPrimary);
+
+  --puppy-elements-actions-background: theme('colors.white');
+  --puppy-elements-actions-code-background: theme('colors.gray.800');
+
+  --puppy-elements-messages-background: theme('colors.gray.100');
+  --puppy-elements-messages-linkColor: theme('colors.accent.500');
+  --puppy-elements-messages-code-background: theme('colors.gray.800');
+  --puppy-elements-messages-inlineCode-background: theme('colors.gray.200');
+  --puppy-elements-messages-inlineCode-text: theme('colors.gray.800');
+
+  --puppy-elements-icon-success: theme('colors.green.500');
+  --puppy-elements-icon-error: theme('colors.red.500');
+  --puppy-elements-icon-primary: theme('colors.gray.950');
+  --puppy-elements-icon-secondary: theme('colors.gray.600');
+  --puppy-elements-icon-tertiary: theme('colors.gray.500');
+
+  --puppy-elements-dividerColor: theme('colors.gray.100');
+
+  --puppy-elements-prompt-background: theme('colors.alpha.white.80');
+
+  --puppy-elements-sidebar-dropdownShadow: theme('colors.alpha.gray.10');
+  --puppy-elements-sidebar-buttonBackgroundDefault: theme('colors.alpha.accent.10');
+  --puppy-elements-sidebar-buttonBackgroundHover: theme('colors.alpha.accent.20');
+  --puppy-elements-sidebar-buttonText: theme('colors.accent.700');
+
+  --puppy-elements-preview-addressBar-background: theme('colors.gray.100');
+  --puppy-elements-preview-addressBar-backgroundHover: theme('colors.alpha.gray.5');
+  --puppy-elements-preview-addressBar-backgroundActive: theme('colors.white');
+  --puppy-elements-preview-addressBar-text: var(--puppy-elements-textSecondary);
+  --puppy-elements-preview-addressBar-textActive: var(--puppy-elements-textPrimary);
+
+  --puppy-elements-terminals-background: theme('colors.white');
+  --puppy-elements-terminals-buttonBackground: var(--puppy-elements-bg-depth-4);
+
+  --puppy-elements-cta-background: theme('colors.gray.100');
+  --puppy-elements-cta-text: theme('colors.gray.950');
+
+  /* Terminal Colors */
+  --puppy-terminal-background: var(--puppy-elements-terminals-background);
+  --puppy-terminal-foreground: #333333;
+  --puppy-terminal-selection-background: #00000040;
+  --puppy-terminal-black: #000000;
+  --puppy-terminal-red: #cd3131;
+  --puppy-terminal-green: #00bc00;
+  --puppy-terminal-yellow: #949800;
+  --puppy-terminal-blue: #0451a5;
+  --puppy-terminal-magenta: #bc05bc;
+  --puppy-terminal-cyan: #0598bc;
+  --puppy-terminal-white: #555555;
+  --puppy-terminal-brightBlack: #686868;
+  --puppy-terminal-brightRed: #cd3131;
+  --puppy-terminal-brightGreen: #00bc00;
+  --puppy-terminal-brightYellow: #949800;
+  --puppy-terminal-brightBlue: #0451a5;
+  --puppy-terminal-brightMagenta: #bc05bc;
+  --puppy-terminal-brightCyan: #0598bc;
+  --puppy-terminal-brightWhite: #a5a5a5;
+}
+
+/* Color Tokens Dark Theme */
+:root,
+:root[data-theme='dark'] {
+  --puppy-elements-borderColor: theme('colors.alpha.white.10');
+  --puppy-elements-borderColorActive: theme('colors.accent.500');
+
+  --puppy-elements-bg-depth-1: theme('colors.gray.950');
+  --puppy-elements-bg-depth-2: theme('colors.gray.900');
+  --puppy-elements-bg-depth-3: theme('colors.gray.800');
+  --puppy-elements-bg-depth-4: theme('colors.alpha.white.5');
+
+  --puppy-elements-textPrimary: theme('colors.white');
+  --puppy-elements-textSecondary: theme('colors.gray.400');
+  --puppy-elements-textTertiary: theme('colors.gray.500');
+
+  --puppy-elements-code-background: theme('colors.gray.800');
+  --puppy-elements-code-text: theme('colors.white');
+
+  --puppy-elements-button-primary-background: theme('colors.alpha.accent.10');
+  --puppy-elements-button-primary-backgroundHover: theme('colors.alpha.accent.20');
+  --puppy-elements-button-primary-text: theme('colors.accent.500');
+
+  --puppy-elements-button-secondary-background: theme('colors.alpha.white.5');
+  --puppy-elements-button-secondary-backgroundHover: theme('colors.alpha.white.10');
+  --puppy-elements-button-secondary-text: theme('colors.white');
+
+  --puppy-elements-button-danger-background: theme('colors.alpha.red.10');
+  --puppy-elements-button-danger-backgroundHover: theme('colors.alpha.red.20');
+  --puppy-elements-button-danger-text: theme('colors.red.500');
+
+  --puppy-elements-item-contentDefault: theme('colors.alpha.white.50');
+  --puppy-elements-item-contentActive: theme('colors.white');
+  --puppy-elements-item-contentAccent: theme('colors.accent.500');
+  --puppy-elements-item-contentDanger: theme('colors.red.500');
+  --puppy-elements-item-backgroundDefault: rgba(255, 255, 255, 0);
+  --puppy-elements-item-backgroundActive: theme('colors.alpha.white.10');
+  --puppy-elements-item-backgroundAccent: theme('colors.alpha.accent.10');
+  --puppy-elements-item-backgroundDanger: theme('colors.alpha.red.10');
+
+  --puppy-elements-loader-background: theme('colors.alpha.gray.10');
+  --puppy-elements-loader-progress: theme('colors.accent.500');
+
+  --puppy-elements-artifacts-background: theme('colors.gray.900');
+  --puppy-elements-artifacts-backgroundHover: theme('colors.alpha.white.5');
+  --puppy-elements-artifacts-borderColor: var(--puppy-elements-borderColor);
+  --puppy-elements-artifacts-inlineCode-background: theme('colors.gray.800');
+  --puppy-elements-artifacts-inlineCode-text: theme('colors.white');
+
+  --puppy-elements-actions-background: theme('colors.gray.900');
+  --puppy-elements-actions-code-background: theme('colors.gray.800');
+
+  --puppy-elements-messages-background: theme('colors.gray.800');
+  --puppy-elements-messages-linkColor: theme('colors.accent.500');
+  --puppy-elements-messages-code-background: theme('colors.gray.900');
+  --puppy-elements-messages-inlineCode-background: theme('colors.gray.700');
+  --puppy-elements-messages-inlineCode-text: var(--puppy-elements-textPrimary);
+
+  --puppy-elements-icon-success: theme('colors.green.400');
+  --puppy-elements-icon-error: theme('colors.red.400');
+  --puppy-elements-icon-primary: theme('colors.gray.950');
+  --puppy-elements-icon-secondary: theme('colors.gray.600');
+  --puppy-elements-icon-tertiary: theme('colors.gray.500');
+
+  --puppy-elements-dividerColor: theme('colors.gray.100');
+
+  --puppy-elements-prompt-background: theme('colors.alpha.gray.80');
+
+  --puppy-elements-sidebar-dropdownShadow: theme('colors.alpha.gray.30');
+  --puppy-elements-sidebar-buttonBackgroundDefault: theme('colors.alpha.accent.10');
+  --puppy-elements-sidebar-buttonBackgroundHover: theme('colors.alpha.accent.20');
+  --puppy-elements-sidebar-buttonText: theme('colors.accent.500');
+
+  --puppy-elements-preview-addressBar-background: var(--puppy-elements-bg-depth-1);
+  --puppy-elements-preview-addressBar-backgroundHover: theme('colors.alpha.white.5');
+  --puppy-elements-preview-addressBar-backgroundActive: var(--puppy-elements-bg-depth-1);
+  --puppy-elements-preview-addressBar-text: var(--puppy-elements-textSecondary);
+  --puppy-elements-preview-addressBar-textActive: var(--puppy-elements-textPrimary);
+
+  --puppy-elements-terminals-background: var(--puppy-elements-bg-depth-1);
+  --puppy-elements-terminals-buttonBackground: var(--puppy-elements-bg-depth-3);
+
+  --puppy-elements-cta-background: theme('colors.alpha.white.10');
+  --puppy-elements-cta-text: theme('colors.white');
+
+  /* Terminal Colors */
+  --puppy-terminal-background: var(--puppy-elements-terminals-background);
+  --puppy-terminal-foreground: #eff0eb;
+  --puppy-terminal-selection-background: #97979b33;
+  --puppy-terminal-black: #000000;
+  --puppy-terminal-red: #ff5c57;
+  --puppy-terminal-green: #5af78e;
+  --puppy-terminal-yellow: #f3f99d;
+  --puppy-terminal-blue: #57c7ff;
+  --puppy-terminal-magenta: #ff6ac1;
+  --puppy-terminal-cyan: #9aedfe;
+  --puppy-terminal-white: #f1f1f0;
+  --puppy-terminal-brightBlack: #686868;
+  --puppy-terminal-brightRed: #ff5c57;
+  --puppy-terminal-brightGreen: #5af78e;
+  --puppy-terminal-brightYellow: #f3f99d;
+  --puppy-terminal-brightBlue: #57c7ff;
+  --puppy-terminal-brightMagenta: #ff6ac1;
+  --puppy-terminal-brightCyan: #9aedfe;
+  --puppy-terminal-brightWhite: #f1f1f0;
+}
+
+/*
+ * Element Tokens
+ *
+ * Hierarchy: Element Token -> (Element Token | Color Tokens) -> Primitives
+ */
+:root {
+  --header-height: 54px;
+  --chat-max-width: 37rem;
+  --chat-min-width: 640px;
+  --workbench-width: min(calc(100% - var(--chat-min-width)), 2536px);
+  --workbench-inner-width: var(--workbench-width);
+  --workbench-left: calc(100% - var(--workbench-width));
+
+  /* Toasts */
+  --toastify-color-progress-success: var(--puppy-elements-icon-success);
+  --toastify-color-progress-error: var(--puppy-elements-icon-error);
+
+  /* Terminal */
+  --puppy-elements-terminal-backgroundColor: var(--puppy-terminal-background);
+  --puppy-elements-terminal-textColor: var(--puppy-terminal-foreground);
+  --puppy-elements-terminal-cursorColor: var(--puppy-terminal-foreground);
+  --puppy-elements-terminal-selection-backgroundColor: var(--puppy-terminal-selection-background);
+  --puppy-elements-terminal-color-black: var(--puppy-terminal-black);
+  --puppy-elements-terminal-color-red: var(--puppy-terminal-red);
+  --puppy-elements-terminal-color-green: var(--puppy-terminal-green);
+  --puppy-elements-terminal-color-yellow: var(--puppy-terminal-yellow);
+  --puppy-elements-terminal-color-blue: var(--puppy-terminal-blue);
+  --puppy-elements-terminal-color-magenta: var(--puppy-terminal-magenta);
+  --puppy-elements-terminal-color-cyan: var(--puppy-terminal-cyan);
+  --puppy-elements-terminal-color-white: var(--puppy-terminal-white);
+  --puppy-elements-terminal-color-brightBlack: var(--puppy-terminal-brightBlack);
+  --puppy-elements-terminal-color-brightRed: var(--puppy-terminal-brightRed);
+  --puppy-elements-terminal-color-brightGreen: var(--puppy-terminal-brightGreen);
+  --puppy-elements-terminal-color-brightYellow: var(--puppy-terminal-brightYellow);
+  --puppy-elements-terminal-color-brightBlue: var(--puppy-terminal-brightBlue);
+  --puppy-elements-terminal-color-brightMagenta: var(--puppy-terminal-brightMagenta);
+  --puppy-elements-terminal-color-brightCyan: var(--puppy-terminal-brightCyan);
+  --puppy-elements-terminal-color-brightWhite: var(--puppy-terminal-brightWhite);
+}

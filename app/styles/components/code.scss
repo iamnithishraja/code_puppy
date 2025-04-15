@@ -1,0 +1,9 @@
+.actions .shiki {
+  background-color: var(--puppy-elements-actions-code-background) !important;
+}
+
+.shiki {
+  &:not(:has(.actions), .actions *) {
+    background-color: var(--puppy-elements-messages-code-background) !important;
+  }
+}
