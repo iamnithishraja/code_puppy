@@ -34,7 +34,7 @@ import ChatAlert from './ChatAlert';
 import type { ModelInfo } from '~/lib/modules/llm/types';
 import ProgressCompilation from './ProgressCompilation';
 import type { ProgressAnnotation } from '~/types/context';
-import type { ActionRunner } from '~/lib/runtime/action-runner';  
+import type { ActionRunner } from '~/lib/runtime/action-runner';
 
 const TEXTAREA_MIN_HEIGHT = 76;
 
@@ -317,10 +317,10 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
             {!chatStarted && (
               <div id="intro" className="mt-[16vh] max-w-chat mx-auto text-center px-4 lg:px-0">
                 <h1 className="text-3xl lg:text-6xl font-bold text-puppy-elements-textPrimary mb-4 animate-fade-in">
-                  Where ideas begin
+                  Vision into reality
                 </h1>
                 <p className="text-md lg:text-xl mb-8 text-puppy-elements-textSecondary animate-fade-in animation-delay-200">
-                  Bring ideas to life in seconds or get help on existing projects.
+                  Create, build, and accomplish more with intelligent assistance at your fingertips.
                 </p>
               </div>
             )}
